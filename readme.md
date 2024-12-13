@@ -34,3 +34,4 @@ The script generates an Excel file named '[original_filename]_tables.xlsx' in th
 ## Notes
 - The script assumes relative URLs in the HTML and prepends "https://scan.merlinchain.io" to all URLs
 - Empty URL columns are automatically removed from the output
+- Use at your own risk.
