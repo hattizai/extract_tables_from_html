@@ -29,7 +29,7 @@ The script generates an Excel file named '[original_filename]_tables.xlsx' in th
 - `read_html_file(file_path)`: Reads the HTML file
 - `html_table_to_dataframe(table, type_value)`: Converts an HTML table to a pandas DataFrame
 - `extract_tables_to_excel(html_content, output_file, type_value)`: Extracts all tables and saves them to an Excel file
-- `main()`: Handles command-line arguments and orchestrates the extraction process
+- `main`: Handles command-line arguments and orchestrates the extraction process
 
 ## Notes
 - The script assumes relative URLs in the HTML and prepends "https://scan.merlinchain.io" to all URLs
